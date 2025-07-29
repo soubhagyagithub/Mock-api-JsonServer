@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "patient@example.com",
+      "password": "password123",
+      "role": "patient",
+      "name": "Patient User"
+    },
+    {
+      "id": "2",
+      "email": "doctor@example.com",
+      "password": "password123",
+      "role": "doctor",
+      "name": "Doctor User"
+    },
+    {
+      "id": "1753708934945",
+      "name": "Riya Sharma",
+      "email": "riya@example.com",
+      "password": "riya123",
+      "phone": "7896541233",
+      "role": "patient"
+    },
+    {
+      "id": "1753712897155",
+      "name": "Neha Chouhan",
+      "email": "neha@example.com",
+      "password": "neha123",
+      "phone": "4785693213",
+      "role": "patient"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "doc1",
+      "name": "Dr. Alice Smith",
+      "specialty": "Pediatrics",
+      "email": "doctor@example.com",
+      "password": "password123",
+      "phone": "123-456-7890",
+      "qualifications": "MD, FAAP",
+      "experience": "10 years",
+      "clinicAddress": "123 Main St",
+      "image": "https://placehold.co/50x50/E0E0E0/333333?text=AS"
+    },
+    {
+      "id": "doc2",
+      "name": "Dr. Bob Johnson",
+      "specialty": "Cardiology",
+      "email": "bob@example.com",
+      "password": "password123",
+      "phone": "987-654-3210",
+      "qualifications": "MD, FACC",
+      "experience": "15 years",
+      "clinicAddress": "456 Oak Ave",
+      "image": "https://placehold.co/50x50/E0E0E0/333333?text=BJ"
+    },
+    {
+      "id": "doc3",
+      "name": "Dr. Sarah Green",
+      "specialty": "Dermatologist",
+      "email": "sarah.green@example.com",
+      "password": "password123",
+      "phone": "9988776655",
+      "qualifications": "MBBS, MD (Derm)",
+      "experience": "8 years",
+      "clinicAddress": "789 Skin Health Center, Chennai",
+      "imageUrl": "https://placehold.co/150x150/E0E0E0/333333?text=SG"
+    },
+    {
+      "id": "doc4",
+      "name": "Dr. David Lee",
+      "specialty": "Neurologist",
+      "email": "david.lee@example.com",
+      "password": "password123",
+      "phone": "8877665544",
+      "qualifications": "MBBS, DM (Neuro)",
+      "experience": "14 years",
+      "clinicAddress": "101 Brain & Spine Institute, Delhi",
+      "imageUrl": "https://placehold.co/150x150/E0E0E0/333333?text=DL"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "appt1",
+      "userId": "1",
+      "doctorId": "doc1",
+      "date": "2025-08-01",
+      "time": "10:00 AM",
+      "status": "Upcoming",
+      "doctorName": "Dr. Alice Smith",
+      "patientName": "Patient User"
+    }
+  ]
+}
